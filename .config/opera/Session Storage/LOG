@@ -1,0 +1,18 @@
+2020/01/02-23:52:58.858 330 Reusing MANIFEST Session Storage/MANIFEST-000001
+2020/01/02-23:52:58.859 330 Recovering log #24
+2020/01/02-23:52:58.860 330 Reusing old log Session Storage/000024.log 
+2020/01/03-00:01:22.251 8f2 Level-0 table #28: started
+2020/01/03-00:01:22.257 8f2 Level-0 table #28: 21199 bytes OK
+2020/01/03-00:01:22.266 8f2 Delete type=0 #24
+2020/01/03-00:01:22.267 91e Compacting 4@0 + 1@1 files
+2020/01/03-00:01:22.274 91e Generated table #29@0: 390 keys, 50188 bytes
+2020/01/03-00:01:22.274 91e Compacted 4@0 + 1@1 files => 50188 bytes
+2020/01/03-00:01:22.278 91e compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/03-00:01:22.278 91e Delete type=2 #22
+2020/01/03-00:01:22.278 91e Delete type=2 #19
+2020/01/03-00:01:22.278 91e Delete type=2 #17
+2020/01/03-00:01:22.278 91e Delete type=2 #28
+2020/01/03-00:01:22.278 91e Delete type=2 #25
+2020/01/03-00:55:52.232 27d3 Level-0 table #31: started
+2020/01/03-00:55:52.242 27d3 Level-0 table #31: 18135 bytes OK
+2020/01/03-00:55:52.244 27d3 Delete type=0 #27

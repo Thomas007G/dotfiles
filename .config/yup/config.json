@@ -1,0 +1,12 @@
+{
+  "sort_mode": "closest",
+  "ncurses_mode": true,
+  "always_update_repos": false,
+  "print_pkgbuild": true,
+  "ask_pkgbuild": true,
+  "ask_redo": true,
+  "version": "1.0.0-rc3",
+  "silent_update": true,
+  "pacman_limit": 70,
+  "aur_limit": 70
+}
