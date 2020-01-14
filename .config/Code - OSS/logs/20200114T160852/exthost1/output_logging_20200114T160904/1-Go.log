@@ -1,0 +1,32 @@
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+/home/thomas/dev/ck401-bot/commands.go:7: exported function Ping should have comment or be unexported
+/home/thomas/dev/ck401-bot/commands.go:12: exported function Help should have comment or be unexported
+
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+
+Starting linting the current package at /home/thomas/dev/ck401-bot
+/home/thomas/dev/ck401-bot>Finished running tool: /home/thomas/go/bin/golint
+

@@ -1,4 +1,4 @@
-// KHKEoyf7yTlnJ9D9h64spyENu75vfyj/hZ2kFBlhovB27pwlc3GpDr8sIMVYDiH3BPU1G7AZqt4jUk7aI+eSN1pzeb5ZaUP5JPRiwIxk1cCpewaWvJa6xh3Z74eUT5M4Op/sEKfA1p/H8Ntq+EYyQ8FRB/ehMco0dl/uZGBl4CKlJbRksPVjen84/MrCRi0nAY25dJqbeSHtgM++ajT89EGUgd3Gtp4F6Th0RRg54O133xKewEvCRmovUKpCyfFazE82AY0VwBrQACDsh5Cp0tq/foBlUMXR9EoZ7P0pbKFuvrsJn/hY/x73hpZIzImtgx0lalCesda/B2UqN6Xtwg==
+// dn+J9EvPKdVu2B93viVuDZFzV79D5Ex/0exkKaWqzSzxisb3m/Vvah6XGyxk//sp3JqYfNUN2L1FiXbHH/CSMO9JjwuoGZ24/CIS6PZv1tqAwQgRYNW8xIlXeKulR0bqRDuzi/KO9aHz8AqWH3B0GODwsJvsv9ffLPZvtkf3XKDKIpnNjqpQg6a+CwOp+zcV9KEntDsNL5Gi5ReijEsMWusWTtlR+5aznKdBNIQZVNtQNws1dmuHq018wEC7JHE+0x7uNTnso4sxFQUYRex/F6svyJ14LKf2fx/Dsanv7ixxdPl6fNBhz9DjWC5lpoJ7jos8M6HlHWiaiVRs+LDDEA==
 {
   "hints": [
     {
@@ -422,7 +422,7 @@
       "params": {
         "default": {
           "integrity": "sha256-KtbcXFKlwoNrctLQyOxJTGZEnvwQRpGckjORZKcOdEU=",
-          "url": "https://get.geo.opera.com/.private/assistserv/0002_v1_fix2/0002_v1_fix2_3_3.html?bg_cursor=1&sub_id=0002_v10_1"
+          "url": "https://get.geo.opera.com/.private/assistserv/0002_v1_fix2/0002_v1_fix2_3_3.html?bg_cursor=1&sub_id=0002_v10_4"
         }
       },
       "priority": 50,
@@ -443,7 +443,7 @@
       "params": {
         "default": {
           "integrity": "sha256-bq1T8yrRjVy6s6bU2LPfashW3XkcZ20+EWDq9QyY4N0=",
-          "url": "https://get.geo.opera.com/.private/assistserv/phony/phony_v3.html?sub_id=0002_v10_1_ref"
+          "url": "https://get.geo.opera.com/.private/assistserv/phony/phony_v3.html?sub_id=0002_v10_4_ref"
         }
       },
       "priority": 50,
@@ -458,7 +458,7 @@
       "params": {
         "default": {
           "integrity": "sha256-KtbcXFKlwoNrctLQyOxJTGZEnvwQRpGckjORZKcOdEU=",
-          "url": "https://get.geo.opera.com/.private/assistserv/0002_v1_fix2/0002_v1_fix2_3_3.html?bg_cursor=1&sub_id=0002_v10_2"
+          "url": "https://get.geo.opera.com/.private/assistserv/0002_v1_fix2/0002_v1_fix2_3_3.html?bg_cursor=1&sub_id=0002_v10_5"
         }
       },
       "priority": 50,
@@ -479,7 +479,7 @@
       "params": {
         "default": {
           "integrity": "sha256-bq1T8yrRjVy6s6bU2LPfashW3XkcZ20+EWDq9QyY4N0=",
-          "url": "https://get.geo.opera.com/.private/assistserv/phony/phony_v3.html?sub_id=0002_v10_2_ref"
+          "url": "https://get.geo.opera.com/.private/assistserv/phony/phony_v3.html?sub_id=0002_v10_5_ref"
         }
       },
       "priority": 50,
@@ -494,7 +494,7 @@
       "params": {
         "default": {
           "integrity": "sha256-KtbcXFKlwoNrctLQyOxJTGZEnvwQRpGckjORZKcOdEU=",
-          "url": "https://get.geo.opera.com/.private/assistserv/0002_v1_fix2/0002_v1_fix2_3_3.html?bg_cursor=1&sub_id=0002_v10_3"
+          "url": "https://get.geo.opera.com/.private/assistserv/0002_v1_fix2/0002_v1_fix2_3_3.html?bg_cursor=1&sub_id=0002_v10_6"
         }
       },
       "priority": 50,
@@ -515,13 +515,85 @@
       "params": {
         "default": {
           "integrity": "sha256-bq1T8yrRjVy6s6bU2LPfashW3XkcZ20+EWDq9QyY4N0=",
-          "url": "https://get.geo.opera.com/.private/assistserv/phony/phony_v3.html?sub_id=0002_v10_3_ref"
+          "url": "https://get.geo.opera.com/.private/assistserv/phony/phony_v3.html?sub_id=0002_v10_6_ref"
         }
       },
       "priority": 50,
       "target": "((app.version.major = 64 AND app.version.build = 3417 AND app.version.patch >= 92) OR app.version.major >= 65) AND os.type = 'win' AND transparency_supported = 1 AND ab_test_group_allegiance >= 2500 AND ab_test_group_allegiance < 3000",
       "trigger": {
         "condition": "(!('115c50fa8d59f99ea14a4de68b51c1b28a48665f' IN chars) AND !('2b1a6efc318c43df2480e1196cb2782e04a96d55' IN chars) AND !('d444533815c9f26dd1e73c92f935bb627bc37967' IN chars) AND !('28ee13332c922442c10eccf0cc62481c27af9491' IN chars) AND ('1ab65c42d80496dcd575c2c95d9fba608c41c4bc' IN chars) AND (('64336fb81a04836eb8108d24fbca3aa3682db0a5' IN chars) OR ('68add370ba02896ef1ad3f4a02816ef157019a46' IN chars) OR ('04ea5e6749c3db01060291e3dff420fb0bbd2a0c' IN chars) OR ('c485ae2488b5b387a545bae58eb12aef317e789e' IN chars)))  AND number_of_times_already_shown < 5 AND time_since_last_shown >= 3 * 24 AND most_recent.time_since_last_shown >= 1 * 24",
+        "event": "navigation_to_startpage"
+      }
+    },
+    {
+      "id": "0002_v10_1",
+      "params": {
+        "default": {
+          "integrity": "sha256-KtbcXFKlwoNrctLQyOxJTGZEnvwQRpGckjORZKcOdEU=",
+          "url": "https://get.geo.opera.com/.private/assistserv/0002_v1_fix2/0002_v1_fix2_3_3.html?bg_cursor=1&sub_id=0002_v10_7"
+        }
+      },
+      "priority": 50,
+      "target": "((app.version.major = 64 AND app.version.build = 3417 AND app.version.patch >= 92) OR app.version.major >= 65) AND os.type = 'win' AND transparency_supported = 1 AND ab_test_group_allegiance >= 3000 AND ab_test_group_allegiance < 3500",
+      "trigger": {
+        "condition": "(!('115c50fa8d59f99ea14a4de68b51c1b28a48665f' IN chars) AND !('2b1a6efc318c43df2480e1196cb2782e04a96d55' IN chars) AND !('d444533815c9f26dd1e73c92f935bb627bc37967' IN chars) AND !('28ee13332c922442c10eccf0cc62481c27af9491' IN chars) AND ('1ab65c42d80496dcd575c2c95d9fba608c41c4bc' IN chars) AND (('64336fb81a04836eb8108d24fbca3aa3682db0a5' IN chars) AND ('f3e0f508a25ba499b8963263273c0741f2341798' IN chars))) AND dont_show_again = 0 AND number_of_times_already_shown < 5 AND time_since_last_shown >= 3 * 24 AND most_recent.time_since_last_shown >= 1 * 24",
+        "event": "navigation_to_startpage"
+      },
+      "variables": {
+        "dont_show_again": {
+          "default": 0,
+          "type": "int"
+        }
+      }
+    },
+    {
+      "id": "0002_v10_1",
+      "params": {
+        "default": {
+          "integrity": "sha256-bq1T8yrRjVy6s6bU2LPfashW3XkcZ20+EWDq9QyY4N0=",
+          "url": "https://get.geo.opera.com/.private/assistserv/phony/phony_v3.html?sub_id=0002_v10_7_ref"
+        }
+      },
+      "priority": 50,
+      "target": "((app.version.major = 64 AND app.version.build = 3417 AND app.version.patch >= 92) OR app.version.major >= 65) AND os.type = 'win' AND transparency_supported = 1 AND ab_test_group_allegiance >= 3500 AND ab_test_group_allegiance < 4000",
+      "trigger": {
+        "condition": "(!('115c50fa8d59f99ea14a4de68b51c1b28a48665f' IN chars) AND !('2b1a6efc318c43df2480e1196cb2782e04a96d55' IN chars) AND !('d444533815c9f26dd1e73c92f935bb627bc37967' IN chars) AND !('28ee13332c922442c10eccf0cc62481c27af9491' IN chars) AND ('1ab65c42d80496dcd575c2c95d9fba608c41c4bc' IN chars) AND (('64336fb81a04836eb8108d24fbca3aa3682db0a5' IN chars) AND ('f3e0f508a25ba499b8963263273c0741f2341798' IN chars)))  AND number_of_times_already_shown < 5 AND time_since_last_shown >= 3 * 24 AND most_recent.time_since_last_shown >= 1 * 24",
+        "event": "navigation_to_startpage"
+      }
+    },
+    {
+      "id": "0002_v10_1",
+      "params": {
+        "default": {
+          "integrity": "sha256-KtbcXFKlwoNrctLQyOxJTGZEnvwQRpGckjORZKcOdEU=",
+          "url": "https://get.geo.opera.com/.private/assistserv/0002_v1_fix2/0002_v1_fix2_3_3.html?bg_cursor=1&sub_id=0002_v10_8"
+        }
+      },
+      "priority": 50,
+      "target": "((app.version.major = 64 AND app.version.build = 3417 AND app.version.patch >= 92) OR app.version.major >= 65) AND os.type = 'win' AND transparency_supported = 1 AND ab_test_group_allegiance >= 4000 AND ab_test_group_allegiance < 4500",
+      "trigger": {
+        "condition": "(!('115c50fa8d59f99ea14a4de68b51c1b28a48665f' IN chars) AND !('2b1a6efc318c43df2480e1196cb2782e04a96d55' IN chars) AND !('d444533815c9f26dd1e73c92f935bb627bc37967' IN chars) AND !('28ee13332c922442c10eccf0cc62481c27af9491' IN chars) AND ('1ab65c42d80496dcd575c2c95d9fba608c41c4bc' IN chars) AND (('64336fb81a04836eb8108d24fbca3aa3682db0a5' IN chars) AND ('f3e0f508a25ba499b8963263273c0741f2341798' IN chars))) AND dont_show_again = 0 AND number_of_times_already_shown < 5 AND time_since_last_shown >= 1 * 1 AND most_recent.time_since_last_shown >= 1 * 12",
+        "event": "navigation_to_startpage"
+      },
+      "variables": {
+        "dont_show_again": {
+          "default": 0,
+          "type": "int"
+        }
+      }
+    },
+    {
+      "id": "0002_v10_1",
+      "params": {
+        "default": {
+          "integrity": "sha256-bq1T8yrRjVy6s6bU2LPfashW3XkcZ20+EWDq9QyY4N0=",
+          "url": "https://get.geo.opera.com/.private/assistserv/phony/phony_v3.html?sub_id=0002_v10_8_ref"
+        }
+      },
+      "priority": 50,
+      "target": "((app.version.major = 64 AND app.version.build = 3417 AND app.version.patch >= 92) OR app.version.major >= 65) AND os.type = 'win' AND transparency_supported = 1 AND ab_test_group_allegiance >= 4500 AND ab_test_group_allegiance < 5000",
+      "trigger": {
+        "condition": "(!('115c50fa8d59f99ea14a4de68b51c1b28a48665f' IN chars) AND !('2b1a6efc318c43df2480e1196cb2782e04a96d55' IN chars) AND !('d444533815c9f26dd1e73c92f935bb627bc37967' IN chars) AND !('28ee13332c922442c10eccf0cc62481c27af9491' IN chars) AND ('1ab65c42d80496dcd575c2c95d9fba608c41c4bc' IN chars) AND (('64336fb81a04836eb8108d24fbca3aa3682db0a5' IN chars) AND ('f3e0f508a25ba499b8963263273c0741f2341798' IN chars)))  AND number_of_times_already_shown < 5 AND time_since_last_shown >= 1 * 1 AND most_recent.time_since_last_shown >= 1 * 12",
         "event": "navigation_to_startpage"
       }
     },
@@ -1475,5 +1547,5 @@
       }
     }
   },
-  "version": 119
+  "version": 120
 }

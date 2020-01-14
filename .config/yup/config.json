@@ -5,8 +5,8 @@
   "print_pkgbuild": true,
   "ask_pkgbuild": true,
   "ask_redo": true,
-  "version": "1.0.0-rc3",
+  "version": "1.0.2",
   "silent_update": true,
-  "pacman_limit": 70,
-  "aur_limit": 70
+  "pacman_limit": 200,
+  "aur_limit": 200
 }

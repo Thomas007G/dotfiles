@@ -1,3 +1,3 @@
-2020/01/03-00:14:57.412 e58 Reusing MANIFEST /home/thomas/.config/opera/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/01/03-00:14:57.412 e58 Recovering log #3
-2020/01/03-00:14:57.413 e58 Reusing old log /home/thomas/.config/opera/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2020/01/06-19:21:35.632 598 Reusing MANIFEST /home/thomas/.config/opera/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/01/06-19:21:35.633 598 Recovering log #3
+2020/01/06-19:21:35.635 598 Reusing old log /home/thomas/.config/opera/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 

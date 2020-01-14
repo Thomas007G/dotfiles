@@ -13,7 +13,9 @@ exec --no-startup-id dunst
 #
 # PaSystray -- Audio Control
 exec --no-startup-id pasystray
-
+#
+# Feh -- Background Control
+exec feh --bg-fill ~/wallpaper/wallpaper.jpg
 
 # Modkey Windows
 set $mod Mod4

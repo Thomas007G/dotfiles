@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "javascript/browser-polyfill.min.js", "javascript/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Share on Watch2Gether"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "javascript/browser-polyfill.min.js", "javascript/content_w2g.js" ],
+      "matches": [ "https://devel.watch2gether.com/rooms/*", "https://www.watch2gether.com/rooms/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "This extensions let's you share content from websites directly into a Watch2gether room.",
+   "homepage_url": "https://www.watch2gether.com",
+   "icons": {
+      "128": "images/icon_128.png",
+      "48": "images/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoDhPVkO7BN33sFdcE9qVNESrJ4MDWqujGH7IXjnAYh/xbFisqaEkuuKEEK55da6DI561c3e/5mYOFLQwrDtNXEn3PWSKhsrGv/feujP3DP15HOCTkNwmDcRzo4i344povRSTmh3TZnNm1taSn6NNmw45rmy27XWsdpb7wFu5c6K9simivqFjUDF+QxjW63u57mZh9MZ7qRun/BmM8ceB1oidJLSlBIaXYj7m15EuJsVVcrljc0e2hYbUvwRXIerIUOMhGao9/wl5PMr0ghctVXLyRP0YyFcyG63ASJAFz3xqp2GOFS+1AAONhIVAUFrjbeh7eZqsjb05kKtQsT9OxwIDAQAB",
+   "manifest_version": 2,
+   "name": "Watch2Gether",
+   "permissions": [ "activeTab", "\u003Call_urls>", "webNavigation", "webRequest", "webRequestBlocking" ],
+   "short_name": "W2G",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.5"
+}

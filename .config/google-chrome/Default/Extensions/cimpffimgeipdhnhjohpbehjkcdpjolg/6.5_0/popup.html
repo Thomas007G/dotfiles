@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Watch2Gether Chrome Extension</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="css/extension.css">
+		<link rel="stylesheet" type="text/css" href="css/auto-complete.css">
+		<script src="javascript/browser-polyfill.min.js"></script>
+		<script src="javascript/w2ghelpers.js"></script>
+		<script src="javascript/auto-complete.min.js"></script>
+		<script src="javascript/w2gbind/w2gdataobject.js"></script>
+		<script src="javascript/w2gbind/w2gbind.js"></script>
+		<script src="javascript/components/w2glogin.js"></script>
+		<script src="javascript/components/w2gshare.js"></script>
+		<script src="javascript/components/w2grooms.js"></script>
+		<script src="javascript/components/w2gapps.js"></script>
+		<script src="javascript/extension.js"></script>
+		<script src="javascript/providers/youtube-provider.js"></script>
+		<script src="javascript/providers/vimeo-provider.js"></script>
+		<script src="javascript/providers/instagram-provider.js"></script>
+		<script src="javascript/providers/deezer-provider.js"></script>
+		<script src="javascript/providers/twitch-provider.js"></script>
+		<script src="javascript/providers/mixer-provider.js"></script>
+		<script src="javascript/providers/coub-provider.js"></script>
+		<script src="javascript/providers/gfycat-provider.js"></script>
+		<script src="javascript/providers/pinterest-provider.js"></script>
+		<script src="javascript/providers/twitter-provider.js"></script>
+		<script src="javascript/providers/facebook-provider.js"></script>
+		<script src="javascript/providers/soundcloud-provider.js"></script>
+		<script src="javascript/providers/mixcloud-provider.js"></script>
+		<script src="javascript/providers/slides-provider.js"></script>
+		<script src="javascript/providers/dailymotion-provider.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div class="topbar">
+				<div class="topbar-search w2g-apps">
+					<form data-w2g="['searchSubmitTopbar', ['event', 'submit']]" class="ui fluid form" action="#" method="post">
+						<div class="field">
+							<div data-w2g="['toggleApps', ['event', 'click']]" class="w2g-topbar-openapps">
+								<img data-w2g="['showApps', 'ifnot']" src="/static/app-drawer.png" alt="App Drawer">
+								<img data-w2g="['showApps', 'if']" src="/static/app-drawer-close.png" style="display:none;" alt="App Drawer">
+							</div>
+							<div class="ui fluid icon action input">
+								<input data-w2g="['searchTerm', 'value'], ['activeDescription', ['attr', 'placeholder']], ['activeDescription', ['attr', 'title']]" id="search-bar-input" name="search-bar-input" type="search" title="Search for videos and audio on YouTube, Vimeo and SoundCloud or paste a direct link to a video or audio track." placeholder="Search OR paste link to YouTube / Amazon / Dailymotion / Vimeo / SoundCloud">
+								<i data-w2g="['clearSearch', ['event', 'click']]" class="remove icon"></i>
+								<div data-w2g="['toggleApps', ['event', 'click']], ['activeName', ['attr', 'title']]" class="w2g-active-icon">
+									<img src="/static/providers/1.png" data-w2g="['activeLogo', ['attr', 'src']]" alt="Active Provider">
+								</div>
+								<button type="submit" class="ui icon button">
+									<i class="search icon"></i>
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div data-w2g="['showApps', 'if'], ['installedApps', 'each']" class="topbar-apps w2g-apps w2g-app-icons" style="display: none;">
+				<div class="w2g-app-icon w2g-selectable" data-w2g="['$parent.click', ['event', 'click']], ['$parent.dblclick', ['event', 'dblclick']], ['active', ['css', ['w2g-selectable-active', null]]]">
+					<img src="" class="w2g-app-icon-image" data-w2g="['icon_path', ['attr', 'src']]" alt="Watch2Gether app">
+					<div class="w2g-app-icon-text" data-w2g="['provider_name', 'text']"></div>
+				</div>
+			</div>
+			<div data-w2g="['showApps', 'if'], ['activeDescription', 'text']" class="w2g-app-active w2g-apps" style="display: none;"></div>
+			<div id="content">
+				<!-- Search results -->
+				<div class="w2g-apps search-show">
+					<div data-w2g="['searching', ['css', ['active', null]]]" class="ui inverted dimmer">
+						<div class="ui text loader">
+							Searching
+						</div>
+					</div>
+					<div data-w2g="['searchResults', 'each']" id="search-results-grid" class="ui two cards">
+						<div class="ui card videocard">
+							<div class="image mod-vid" data-w2g="['$parent.play', ['event', 'click']]" title="Watch Now">
+								<img data-w2g="['thumb', ['attr', 'src']]" src="" alt="Preview Image">
+							</div>
+							<div class="content search-video-content mod-vid">
+								<div class="price" data-w2g="['price', 'if'], ['price', 'text']"></div>
+								<a class="header" data-w2g="['$parent.play', ['event', 'click']], ['title', 'text']" title="Watch Now"></a>
+								<div class="meta">
+									<div data-w2g="['publisher', 'if']">
+										<p data-w2g="['publisherID', 'if']">
+											by <a data-w2g="['publisher', 'text'], ['$parent.loadMoreFromPub', ['event', 'click']]"></a>
+										</p>
+										<p data-w2g="['publisherID', 'ifnot']">
+											by <span data-w2g="['publisher', 'text']"></span>
+										</p>
+									</div>
+									<span data-w2g="['date', 'text']"></span>
+								</div>
+							</div>
+							<div data-w2g="['$parent.auth', 'if']" class="extra content">
+								<div data-w2g="['$parent.share', ['event', 'click']]" class="ui mini labeled icon button">
+									<i class="share icon"></i>
+									My Rooms
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-w2g="['canLoadMore', 'if']" class="ui center aligned basic segment w2g-apps search-show">
+					<div data-w2g="['loadMore', ['event', 'click']]" class="ui small icon primary button">
+						<i class="sync alternate icon"></i>
+						Load more
+					</div>
+				</div>
+				<!-- SHARE1 -->
+				<div data-w2g="['found', 'if']" class="ui segment w2g-share search-hide">
+					<div class="ui unstackable items">
+						<div class="item">
+							<div class="ui tiny image">
+								<img data-w2g="['thumb', ['attr', 'src']]" src="images/icon.png" alt="Share Item">
+							</div>
+							<div class="content">
+								<div data-w2g="['title', 'text']" class="header"></div>
+								<div data-w2g="['auth', 'ifnot']" class="extra">
+									<button data-w2g="['share', ['event', 'click']]" id="share-button" class="ui fluid centered primary labeled icon button">
+										<i class="play icon"></i>
+										Create new Room
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END SHARE1 -->
+				<!-- ROOMS -->
+				<div class="w2g-rooms auth-required search-hide">
+					<div data-w2g="['shareRoom', 'ifnot']">
+						<div data-w2g="['message', 'if'],['message', 'text']" class="ui success message animated bounceIn"></div>
+						<div class="ui grey small borderless inverted menu">
+							<div class="header item">
+								My Rooms
+							</div>
+							<div class="right menu">
+								<div data-w2g='["createNewRoom", ["event", "click"]]' class="link item" title="Create a new room">
+									<i data-w2g="['shareID', ['css', ['play', 'plus']]]" class="icon"></i>
+								</div>
+							</div>
+						</div>
+						<div class="w2g-items" data-w2g='["rooms", "each"]'>
+							<div class="w2g-item">
+								<div class="thumb-sizer">
+									<div class="thumb">
+										<img data-w2g="['thumb', ['attr', 'src']]" src="images/icon_48.png" alt="Avatar">
+									</div>
+								</div>
+								<div class="main">
+									<a class="title" data-w2g="['persistent_name', 'text'], ['openurl', ['attr', 'href']]" target="_blank"></a>
+									<div data-w2g="['users', 'each']" class="room-users">
+										<span>
+											<i data-w2g="['online', ['css', ['green', null]]]" class="circle icon"></i><span data-w2g="['nname', 'text']" class="user"></span>
+										</span>
+									</div>
+								</div>
+								<div>
+									<div data-w2g='["$parent.openShare", ["event", "click"]], ["$parent.shareID", ["css", ["primary", "disabled"]]]' class="ui tiny icon button" title="Share in this room">
+										<i class="share alternate icon"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-w2g='["shareRoom", "if"]' class="ui message">
+						<i data-w2g='["closeShare", ["event", "click"]]' class="close icon ripple"></i>
+						<div class="header" data-w2g='["shareRoomName", "text"]'></div>
+						<div class="ui fluid vertical small menu">
+							<div data-w2g='["shareItem", ["event", "click"]]' class="link item">
+								<i class="play icon"></i> Play
+							</div>
+							<div class="item">
+								<div class="header">
+									Add to Playlist
+								</div>
+								<div class="menu" data-w2g="['sharePlaylists' , 'each']">
+									<a data-w2g="['title', 'text'], ['$parent.addToPlaylist', ['event', 'click']]" class="link item"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END ROOMS -->
+				<!-- LOGIN -->
+				<div class="ui left aligned secondary segment w2g-login search-hide" data-w2g='["auth", "ifnot"]'>
+					<h3 class="ui center aligned header">Login</h3>
+					<div class="ui divider"></div>
+					<div class="ui red segment" data-w2g='["showError", "if"]'>
+						<div class="ui bulleted list" data-w2g='["errors", "each"]'>
+							<div class="item" data-w2g='["error", "text"]'></div>
+						</div>
+					</div>
+					<form class="ui form" data-w2g='["submit", ["event", "submit"]]'>
+						<div class="field">
+							<div class="ui left icon input">
+								<input data-w2g='["email", "value"]' autofocus="autofocus" placeholder="Email" type="email" id="user_email">
+								<i class="at icon"></i>
+							</div>
+						</div>
+						<div class="field">
+							<div class="ui left icon input">
+								<input class="w2g-bind" data-w2g='["password", "value"]' autocomplete="off" placeholder="Password" type="password" id="user_password">
+								<i class="lock icon"></i>
+							</div>
+						</div>
+						<input type="submit" class="ui positive submit button" value="Sign In">
+					</form>
+				</div>
+				<div class="ui basic center aligned segment w2g-login search-hide" data-w2g='["auth", "ifnot"]'>
+					<a href="https://www.watch2gether.com/auth/sign_up" target="_blank">Sign up for a Watch2Gether account</a><br>
+					<a href="https://www.watch2gether.com/auth/password/new" target="_blank">Forgot your password?</a>
+				</div>
+				<!-- END LOGIN -->
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,1236 @@
+{
+   "about": {
+      "message": "Hakkında"
+   },
+   "account": {
+      "message": "Hesap"
+   },
+   "addFolder": {
+      "message": "Klasör Ekle"
+   },
+   "addItem": {
+      "message": "Hesap Ekle"
+   },
+   "addLogin": {
+      "message": "Oturum Ekle"
+   },
+   "addLoginNotificationDesc": {
+      "message": "\"Hesap Ekle Bildirimi\" otomatik olarak, ilk kez oturum açtığınız hesabınızı kasanıza kaydetmeniz için uyarı verir."
+   },
+   "addedFolder": {
+      "message": "Klasör eklendi"
+   },
+   "addedItem": {
+      "message": "Hesap eklendi"
+   },
+   "address": {
+      "message": "Adres"
+   },
+   "address1": {
+      "message": "Adres 1"
+   },
+   "address2": {
+      "message": "Adres 2"
+   },
+   "address3": {
+      "message": "Adres 3"
+   },
+   "allItems": {
+      "message": "Tüm öğeler"
+   },
+   "apiUrl": {
+      "message": "API Sunucu URL"
+   },
+   "appName": {
+      "message": "Bitwarden"
+   },
+   "april": {
+      "message": "Nisan"
+   },
+   "attachmentSaved": {
+      "message": "Ekiniz kaydedildi."
+   },
+   "attachments": {
+      "message": "Ekler"
+   },
+   "august": {
+      "message": "Ağustos"
+   },
+   "authenticatorAppDesc": {
+      "description": "'Authy' and 'Google Authenticator' are product names and should not be translated.",
+      "message": "Zamana dayalı doğrulama kodları oluşturmak için bir kimlik doğrulayıcı uygulaması (Authy veya Google Authenticator gibi) kullanın."
+   },
+   "authenticatorAppTitle": {
+      "message": "Kimlik doğrulayıcı uygulama"
+   },
+   "authenticatorKeyTotp": {
+      "message": "Kimlik doğrulama anahtarı (TOTP)"
+   },
+   "autoFill": {
+      "message": "Otomatik doldur"
+   },
+   "autoFillInfo": {
+      "message": "Mevcut sekme için otomatik doldurulacak giriş bilgisi bulunmuyor."
+   },
+   "autofillError": {
+      "message": "Bu sayfada seçilen giriş bilgileri otomatik doldurulamıyor. Kullanıcı adınızı kopyala/yapıştırın ve ya parolanızı kopyala/yapıştırın."
+   },
+   "avoidAmbChar": {
+      "message": "Belirsiz Karakterler Kullanma"
+   },
+   "back": {
+      "message": "Geri"
+   },
+   "baseDomain": {
+      "message": "Ana alanadı"
+   },
+   "baseUrl": {
+      "message": "Sunucu URL"
+   },
+   "bitWebVault": {
+      "message": "Bitwarden Web Kasası"
+   },
+   "brand": {
+      "message": "Marka"
+   },
+   "browserNotSupportClipboard": {
+      "message": "İnternet tarayıcınız kolay panoya kopyalamayı desteklemiyor. Parolayı elle kopyalayın."
+   },
+   "cancel": {
+      "message": "İptal"
+   },
+   "capitalize": {
+      "description": "Make the first letter of a work uppercase.",
+      "message": "İlk harfi büyük yap"
+   },
+   "cardholderName": {
+      "message": "Kart Sahibinin Adı"
+   },
+   "cards": {
+      "message": "Kartlar"
+   },
+   "cfTypeBoolean": {
+      "message": "Boolean"
+   },
+   "cfTypeHidden": {
+      "message": "Gizli"
+   },
+   "cfTypeText": {
+      "message": "Metin"
+   },
+   "changeMasterPass": {
+      "message": "Ana Parolayı Değiştir"
+   },
+   "changeMasterPassword": {
+      "message": "Ana Parolayı Değiştir"
+   },
+   "changeMasterPasswordConfirmation": {
+      "message": "Ana parolanızı bitwarden.com web kasası üzerinden değiştirebilirsiniz. Siteyi şimdi ziyaret etmek ister misiniz?"
+   },
+   "checkPassword": {
+      "message": "Parolanız herhangi bir saldırı sonucu açığa çıkmış mı kontrol edin."
+   },
+   "cityTown": {
+      "message": "Kent / Şehir"
+   },
+   "clear": {
+      "description": "To clear something out. example: To clear browser history.",
+      "message": "Temizle"
+   },
+   "clearClipboard": {
+      "description": "Clipboard is the operating system thing where you copy/paste data to on your device.",
+      "message": "Panoyu Temizle"
+   },
+   "clearClipboardDesc": {
+      "description": "Clipboard is the operating system thing where you copy/paste data to on your device.",
+      "message": "Panodan kopyalanan değerleri otomatik olarak temizle."
+   },
+   "close": {
+      "message": "Kapat"
+   },
+   "collections": {
+      "message": "Koleksiyonlar"
+   },
+   "commandAutofillDesc": {
+      "message": "Geçerli site için son kullanılan giriş verisini otomatik doldur."
+   },
+   "commandGeneratePasswordDesc": {
+      "message": "Rastgele yeni bir parola oluştur ve panoya kopyala."
+   },
+   "company": {
+      "message": "Şirket"
+   },
+   "continue": {
+      "message": "Devam"
+   },
+   "copyNote": {
+      "message": "Notu kopyala"
+   },
+   "copyNumber": {
+      "message": "Numarayı Kopyala"
+   },
+   "copyPassword": {
+      "message": "Parolayı Kopyala"
+   },
+   "copySecurityCode": {
+      "message": "Güvenlik Kodunu Kopyala"
+   },
+   "copyUri": {
+      "message": "Linki kopyala"
+   },
+   "copyUsername": {
+      "message": "Kullanıcı Adını Kopyala"
+   },
+   "copyValue": {
+      "message": "Değeri kopyala"
+   },
+   "copyVerificationCode": {
+      "message": "Doğrulama kodunu kopyala"
+   },
+   "country": {
+      "message": "Ülke"
+   },
+   "createAccount": {
+      "message": "Hesap Oluştur"
+   },
+   "currentTab": {
+      "message": "Mevcut Sekme"
+   },
+   "customEnvironment": {
+      "message": "Özel Çevre"
+   },
+   "customEnvironmentFooter": {
+      "message": "Üst düzey kullanıcılar için. Her servisin taban URL'sini bağımsız olarak belirleyebilirsiniz."
+   },
+   "customFields": {
+      "message": "Özel Alanlar"
+   },
+   "dark": {
+      "description": "Dark color",
+      "message": "Koyu"
+   },
+   "datePasswordUpdated": {
+      "description": "ex. Date this password was updated",
+      "message": "Parola Güncellendi"
+   },
+   "dateUpdated": {
+      "description": "ex. Date this item was updated",
+      "message": "Güncellendi"
+   },
+   "december": {
+      "message": "Aralık"
+   },
+   "default": {
+      "message": "Varsayılan"
+   },
+   "defaultMatchDetection": {
+      "description": "Default URI match detection for auto-fill.",
+      "message": "Varsayılan eşleme tanıma"
+   },
+   "defaultUriMatchDetection": {
+      "description": "Default URI match detection for auto-fill.",
+      "message": "Varsayılan Eşleşen URI Tespiti"
+   },
+   "defaultUriMatchDetectionDesc": {
+      "message": "Otomatik doldurma gibi eylemler gerçekleştirirken oturum açma işlemleri için URI eşleme algılamasının varsayılan biçimini seçiniz."
+   },
+   "deleteAttachment": {
+      "message": "Eki Sil"
+   },
+   "deleteAttachmentConfirmation": {
+      "message": "Bu eki silmek istediğinize emin misiniz?"
+   },
+   "deleteFolder": {
+      "message": "Klasörü Sil"
+   },
+   "deleteFolderConfirmation": {
+      "message": "Bu klasörü silmek istediğinize emin misiniz?"
+   },
+   "deleteItem": {
+      "message": "Hesabı Sil"
+   },
+   "deleteItemConfirmation": {
+      "message": "Bu hesap bilgilerini silmek istediğinizden emin misiniz?"
+   },
+   "deletedAttachment": {
+      "message": "Silinen Ekler"
+   },
+   "deletedFolder": {
+      "message": "Klasör silindi"
+   },
+   "deletedItem": {
+      "message": "Hesap bilgileri silindi"
+   },
+   "disableAddLoginNotification": {
+      "message": "Hesap Ekle Bildirimlerini Kapat"
+   },
+   "disableAutoTotpCopy": {
+      "message": "Otomatik TOTP Kopyalamayı Kapat"
+   },
+   "disableAutoTotpCopyDesc": {
+      "message": "Giriş bilgilerinizde bir kimlik doğrulama anahtarı varsa, giriş bilgilerini otomatik olarak doldurduğunuzda TOTP doğrulama kodu da otomatik olarak panonuza kopyalanır."
+   },
+   "disableChangedPasswordNotification": {
+      "message": "Değiştirilmiş Parola Bildirimlerini Devre Dışı Bırak"
+   },
+   "disableChangedPasswordNotificationDesc": {
+      "message": "\"Değiştirilmiş Parola Bildirimleri\" bir web sitesindeki hesabınızda parolanızı değiştirdiğinizde otomatik olarak parolanızı güncellemenizi sağlar."
+   },
+   "disableContextMenuItem": {
+      "message": "Sağtık Menü Seçeneklerini Kapat"
+   },
+   "disableContextMenuItemDesc": {
+      "message": "Sağtık menü seçenekleri, internet siteleri için geçerli sekmenizde şifre oluşturma ve oturum açma işlemlerine hızlı erişim sağlar."
+   },
+   "disableFavicon": {
+      "message": "Site simgelerini devre sışı bırak"
+   },
+   "disableFaviconDesc": {
+      "message": "Web Sitesi Simgeleri, kasanızdaki her giriş bilgisinin yanında o siteyi tanımanıza yardımcı olacak bir görüntü verir."
+   },
+   "dontShowCardsCurrentTab": {
+      "message": "Don't Show Cards on Tab Page"
+   },
+   "dontShowCardsCurrentTabDesc": {
+      "message": "Card items from your vault are listed on the 'Current Tab' page for easy auto-fill access."
+   },
+   "dontShowIdentitiesCurrentTab": {
+      "message": "Don't Show Identities on Tab Page"
+   },
+   "dontShowIdentitiesCurrentTabDesc": {
+      "message": "Identity items from your vault are listed on the 'Current Tab' page for easy auto-fill access."
+   },
+   "dr": {
+      "message": "Dr"
+   },
+   "dragToSort": {
+      "message": "Sıralamak için sürükleyin"
+   },
+   "duoDesc": {
+      "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated.",
+      "message": "Duo Security ile doğrulama için Duo Mobile uygulaması, SMS, telefon görüşmesi veya U2F güvenlik anahtarını kullanın."
+   },
+   "duoOrganizationDesc": {
+      "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated.",
+      "message": "Kuruluşunuzun Duo Security doğrulaması için Duo Mobile uygulaması, SMS, telefon görüşmesi veya U2F güvenlik anahtarını kullanın."
+   },
+   "edit": {
+      "message": "Düzenle"
+   },
+   "editFolder": {
+      "message": "Klasörü Düzenle"
+   },
+   "editItem": {
+      "message": "Hesabı düzenle"
+   },
+   "editedFolder": {
+      "message": "Klasör Düzenlendi"
+   },
+   "editedItem": {
+      "message": "Hesap düzenlendi"
+   },
+   "email": {
+      "message": "E-posta"
+   },
+   "emailAddress": {
+      "message": "E-posta Adresi"
+   },
+   "emailDesc": {
+      "message": "Doğrulama kodu size e-postalanacak."
+   },
+   "emailRequired": {
+      "message": "E-posta adresi gereklidir."
+   },
+   "emailTitle": {
+      "message": "E-posta"
+   },
+   "enableAutoFillOnPageLoad": {
+      "message": "Sayfa Yüklendiğinde Otomatik Doldurmayı Etkinleştir"
+   },
+   "enableAutoFillOnPageLoadDesc": {
+      "message": "Eğer bir oturum açma formu tespit edilirse, sayfa yüklendiğinde otomatik olarak veriler formlar doldurulur."
+   },
+   "enterEmailToGetHint": {
+      "message": "Ana parola ipucunuzu almak istediğiniz e-posta adresinizi girin."
+   },
+   "enterVerificationCodeApp": {
+      "message": "Kimlik doğrulayıcı uygulamanızdaki 6 haneli doğrulama kodunu girin."
+   },
+   "enterVerificationCodeEmail": {
+      "message": "Szie e-postalanan 6 haneli doğrulama kodunu girin",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "example@gmail.com"
+         }
+      }
+   },
+   "environmentSaved": {
+      "message": "Çevre URL'ler kaydedildi."
+   },
+   "errorOccurred": {
+      "message": "Bir hata oluştu"
+   },
+   "ex": {
+      "message": "ör."
+   },
+   "exact": {
+      "message": "Tam"
+   },
+   "experimentalFeature": {
+      "message": "Bu şu anda deneysel bir özelliktir. Kullanımı sizin sorumluluğunuzdadır."
+   },
+   "expiration": {
+      "message": "Son Kullanma Tarihi"
+   },
+   "expirationMonth": {
+      "message": "Son Kullanma Ayı"
+   },
+   "expirationYear": {
+      "message": "Son Kullanma Yılı"
+   },
+   "exportMasterPassword": {
+      "message": "Kasadaki verilerinizi dışa aktarmak için ana parolanızı girin."
+   },
+   "exportVault": {
+      "message": "Kasayı Dışa Aktar"
+   },
+   "exportWarningDesc": {
+      "message": "This export contains your vault data in an unencrypted format. You should not store or send the exported file over unsecure channels (such as email). Delete it immediately after you are done using it."
+   },
+   "extDesc": {
+      "description": "Extension description",
+      "message": "Bitwarden, tüm aygıtlarınız için güvenli ve ücretsiz bir parola yöneticisidir."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Bitwarden - Ücretsiz Parola Yöneticisi"
+   },
+   "favorite": {
+      "message": "Favori"
+   },
+   "favorites": {
+      "message": "Favoriler"
+   },
+   "featureUnavailable": {
+      "message": "Özellik mevcut değil"
+   },
+   "february": {
+      "message": "Şubat"
+   },
+   "fifteenMinutes": {
+      "message": "15 dakika"
+   },
+   "file": {
+      "message": "Dosya"
+   },
+   "fileFormat": {
+      "message": "File Format"
+   },
+   "fingerprintPhrase": {
+      "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.",
+      "message": "Parmak izi şifresi"
+   },
+   "firstName": {
+      "message": "İlk Ad"
+   },
+   "fiveMinutes": {
+      "message": "5 dakika"
+   },
+   "folder": {
+      "message": "Klasör"
+   },
+   "folders": {
+      "message": "Klasörler"
+   },
+   "fourHours": {
+      "message": "4 saat"
+   },
+   "generatePassword": {
+      "message": "Parola Oluştur"
+   },
+   "generatePasswordCopied": {
+      "message": "Parola Oluştur (kopyalandı)"
+   },
+   "generator": {
+      "description": "Short for 'Password Generator'.",
+      "message": "Oluşturucu"
+   },
+   "getMasterPasswordHint": {
+      "message": "Ana parola ipucunu al"
+   },
+   "gettingStartedTutorial": {
+      "message": "Başlangıç Öğreticileri"
+   },
+   "gettingStartedTutorialVideo": {
+      "message": "Tarayıcı uzantısından en iyi şekilde nasıl yararlanabileceğinizi öğrenmek için başlangıç eğitimimizi izleyin."
+   },
+   "good": {
+      "description": "ex. A good password. Scale: Weak -> Good -> Strong",
+      "message": "İyi"
+   },
+   "helpFeedback": {
+      "message": "Yardım & Geribildirim"
+   },
+   "host": {
+      "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'.",
+      "message": "Sunucu alanadı"
+   },
+   "iconsUrl": {
+      "message": "Sunucu URL simgeleri"
+   },
+   "identities": {
+      "message": "Kimlikler"
+   },
+   "identityName": {
+      "message": "Kimlik Adı"
+   },
+   "identityUrl": {
+      "message": "Kimlik Sunucu URL"
+   },
+   "immediately": {
+      "message": "Hemen"
+   },
+   "importItems": {
+      "message": "Hesapları İçe Aktar"
+   },
+   "includeNumber": {
+      "message": "Sayı Ekle"
+   },
+   "insertU2f": {
+      "message": "Güvenlik anahtarınızı bilgisayarınızın USB portuna takın. Bir düğmesi varsa dokunun."
+   },
+   "insertYubiKey": {
+      "message": "YubiKey'i bilgisayarınızın USB portuna takın, ardından düğmesine dokunun."
+   },
+   "invalidEmail": {
+      "message": "Geçersi e-posta adresi."
+   },
+   "invalidMasterPassword": {
+      "message": "Geçersiz ana parola"
+   },
+   "invalidPin": {
+      "message": "PIN kodu geçersiz."
+   },
+   "itemInformation": {
+      "message": "Hesap Bilgisi"
+   },
+   "january": {
+      "message": "Ocak"
+   },
+   "july": {
+      "message": "Temmuz"
+   },
+   "june": {
+      "message": "Haziran"
+   },
+   "lastName": {
+      "message": "Soyad"
+   },
+   "lastSync": {
+      "message": "Son Eşitleme:"
+   },
+   "launch": {
+      "message": "Başlat"
+   },
+   "learnMore": {
+      "message": "Daha fazla bilgi edinin"
+   },
+   "length": {
+      "message": "Uzunluk"
+   },
+   "licenseNumber": {
+      "message": "Ehliyet Numarası"
+   },
+   "light": {
+      "description": "Light color",
+      "message": "Açık"
+   },
+   "lockNow": {
+      "message": "Şimdi Kilitle"
+   },
+   "lockOptions": {
+      "message": "Kilit Seçenekleri"
+   },
+   "lockWithMasterPassOnRestart": {
+      "message": "Tarayıcı yeniden başlatıldığında ana şifre ile kilitle"
+   },
+   "logOut": {
+      "message": "Çıkış Yap"
+   },
+   "logOutConfirmation": {
+      "message": "Çıkmak istediğinize emin misiniz?"
+   },
+   "loggedInAsOn": {
+      "message": "$HOSTNAME$ 'a $EMAIL$ olarak giriş yapıldı.",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "name@example.com"
+         },
+         "hostname": {
+            "content": "$2",
+            "example": "bitwarden.com"
+         }
+      }
+   },
+   "loggedOut": {
+      "message": "Çıkış yapıldı"
+   },
+   "login": {
+      "message": "Giriş Yap"
+   },
+   "loginExpired": {
+      "message": "Oturumunuzun süresi doldu."
+   },
+   "loginOrCreateNewAccount": {
+      "message": "Güvenli kasanıza ulaşmak için giriş yapın veya yeni bir hesap oluşturun."
+   },
+   "loginUnavailable": {
+      "message": "Oturum Açma Kullanılamıyor"
+   },
+   "logins": {
+      "message": "Girişler"
+   },
+   "manage": {
+      "message": "Yönet"
+   },
+   "march": {
+      "message": "Mart"
+   },
+   "masterPass": {
+      "message": "Ana Parola"
+   },
+   "masterPassDesc": {
+      "message": "Ana parola, kasanıza ulaşmak için kullanacağınız paroladır. Ana parolanızı unutmamanız çok önemlidir. Ana parolanızı unutmanız durumunda parolanızı geri getirecek herhangi bir yol bulunmuyor."
+   },
+   "masterPassDoesntMatch": {
+      "message": "Ana parola onayı eşleşmiyor."
+   },
+   "masterPassHint": {
+      "message": "Ana Parola İpucu (isteğe bağlı)"
+   },
+   "masterPassHintDesc": {
+      "message": "Bir ana parola ipucu, eğer unuttursanız parolanızı hatırlamanıza yardımcı olabilir."
+   },
+   "masterPassLength": {
+      "message": "Ana parola en az 8 karakter uzunluğunda olmalıdır."
+   },
+   "masterPassRequired": {
+      "message": "Ana parola gereklidir."
+   },
+   "masterPassSent": {
+      "message": "Size ana parolanızın ipucunu içeren bir e-posta gönderdik."
+   },
+   "matchDetection": {
+      "description": "URI match detection for auto-fill.",
+      "message": "Eşleme Tanıma"
+   },
+   "maxFileSize": {
+      "message": "En büyük dosya boyutu 100MB."
+   },
+   "may": {
+      "message": "May"
+   },
+   "middleName": {
+      "message": "İkinci Ad"
+   },
+   "minNumbers": {
+      "message": "En Az Rakam"
+   },
+   "minSpecial": {
+      "message": "En Az Özel Karakter"
+   },
+   "mr": {
+      "message": "Bay"
+   },
+   "mrs": {
+      "message": "Bayan"
+   },
+   "ms": {
+      "message": "Bayan"
+   },
+   "myVault": {
+      "message": "Kasam"
+   },
+   "name": {
+      "message": "Ad"
+   },
+   "nameRequired": {
+      "message": "Ad gereklidir."
+   },
+   "never": {
+      "message": "Asla"
+   },
+   "neverLockWarning": {
+      "message": "\"Asla\" seçeneğini kullanmak istediğinize emin misiniz? Kilit seçeneğinizi \"Asla\" olarak ayarlarsanız, kasanın şifreleme anahtarı cihazınızda saklanacaktır. Bu seçeneği kullanırsanız, cihazınızın düzgün bir şekilde korumalı ve güvende tutmalısınız."
+   },
+   "newAccountCreated": {
+      "message": "Yeni hesabınız oluşturuldu! Şimdi giriş yapabilirsiniz."
+   },
+   "newAttachment": {
+      "message": "Yeni bir ek ekle"
+   },
+   "newCustomField": {
+      "message": "Yeni Özel Alan"
+   },
+   "newUri": {
+      "message": "Yeni URI"
+   },
+   "no": {
+      "message": "Hayır"
+   },
+   "noAttachments": {
+      "message": "Ek yok."
+   },
+   "noCollectionsInList": {
+      "message": "Listelenecek koleksiyon yok."
+   },
+   "noFolders": {
+      "message": "Listelenecek klasör yok."
+   },
+   "noItemsInList": {
+      "message": "Listelenecek hesap yok."
+   },
+   "noMatchingLogins": {
+      "message": "Eşleşen site yok."
+   },
+   "noOrganizationsList": {
+      "message": "You do not belong to any organizations. Organizations allow you to securely share items with other users."
+   },
+   "noPasswordsInList": {
+      "message": "Listelenecek parola yok."
+   },
+   "noTwoStepProviders": {
+      "message": "Bu hesapta iki adımlı giriş özelliği etkin, ancak yapılandırılmış iki adımlı sağlayıcılarının hiçbiri bu internet tarayıcısı tarafından desteklenmiyor."
+   },
+   "noTwoStepProviders2": {
+      "message": "Lütfen desteklenen bir internet tarayıcısı kullanın (Chrome gibi) ve ya internet tarayıcılarında daha iyi desteklenen ek sağlayıcılar ekleyin (bir kimlik doğrulayıcı uygulaması gibi)."
+   },
+   "noneFolder": {
+      "description": "This is the folder for uncategorized items",
+      "message": "Klasör Yok"
+   },
+   "note": {
+      "message": "Not"
+   },
+   "notes": {
+      "message": "Notlar"
+   },
+   "notificationAddDesc": {
+      "message": "Bitwarden bu parolayı sizin için hatırlamalı mı?"
+   },
+   "notificationAddSave": {
+      "message": "Evet, Şimdi kaydet"
+   },
+   "notificationChangeDesc": {
+      "message": "Bu parolayı Bitwarden kasanızda güncellemek ister misiniz?"
+   },
+   "notificationChangeSave": {
+      "message": "Evet, şimdi güncelle"
+   },
+   "notificationNeverSave": {
+      "message": "Bu site için asla"
+   },
+   "notificationsUrl": {
+      "message": "Bildirim Sunucu URL'si"
+   },
+   "november": {
+      "message": "Kasım"
+   },
+   "numWords": {
+      "message": "Kelime Sayısı"
+   },
+   "number": {
+      "message": "Numara"
+   },
+   "october": {
+      "message": "Ekim"
+   },
+   "onLocked": {
+      "message": "Sistem Kilitliyken"
+   },
+   "onRestart": {
+      "message": "Tarayıcıda Yeniden Başlatılırken"
+   },
+   "oneHour": {
+      "message": "1 saat"
+   },
+   "oneMinute": {
+      "message": "1 dakika"
+   },
+   "options": {
+      "message": "Seçenekler"
+   },
+   "organization": {
+      "description": "An entity of multiple related people (ex. a team or business organization).",
+      "message": "Kuruluş"
+   },
+   "other": {
+      "message": "Diğer"
+   },
+   "overwritePassword": {
+      "message": "Parola Üzerine Yaz"
+   },
+   "overwritePasswordConfirmation": {
+      "message": "Mevcut parolanın üzerine kaydetmek istediğinize emin misiniz?"
+   },
+   "ownership": {
+      "message": "Sahiplik"
+   },
+   "passGen": {
+      "message": "Parola Oluşturucu"
+   },
+   "passGenInfo": {
+      "message": "Hesaplarınız için otomatik olarak güçlü, özel parolalar oluşturun."
+   },
+   "passphrase": {
+      "message": "Cümle Parola"
+   },
+   "passportNumber": {
+      "message": "Pasaport Numarası"
+   },
+   "password": {
+      "message": "Parola"
+   },
+   "passwordCopied": {
+      "message": "Parola kopyalandı"
+   },
+   "passwordExposed": {
+      "message": "Bu parola $VALUE$ sefer saldırı sonucu veri ele geçmesiyle açığa çıkmış. Değiştirmeniz gerekiyor.",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "passwordHint": {
+      "message": "Parola İpucu"
+   },
+   "passwordHistory": {
+      "message": "Parola Geçmişi"
+   },
+   "passwordSafe": {
+      "message": "Parolanız, herhangi bir saldırı sonucu ele geçirilen veride bulunmadı. Kullanılması güvenli görünüyor."
+   },
+   "phone": {
+      "message": "Telefon"
+   },
+   "pin": {
+      "description": "PIN code. Ex. The short code (often numeric) that you use to unlock a device.",
+      "message": "PIN"
+   },
+   "pinRequired": {
+      "message": "PIN kodu gerekli."
+   },
+   "popOutNewWindow": {
+      "message": "Yeni bir pencerede aç"
+   },
+   "popup2faCloseMessage": {
+      "message": "Onay kodunuzu alacağınız e-postanızı kontrol etmek için açılan pencerenin dışına tıklamanız bu açılır pencerenin kapanmasına neden olacaktır. Bu açılır pencereyi kapatmamak için yeni bir pencerede açmak istiyor musunuz?"
+   },
+   "popupU2fCloseMessage": {
+      "message": "Bu tarayıcı bu açılır pencerede U2F isteklerini işleyemez. U2F kullanarak giriş yapmak için bu açılır pencereyi yeni bir pencerede açmak ister misiniz?"
+   },
+   "ppremiumSignUpFuture": {
+      "message": "Ve gelecekteki tüm premium özellikler. Daha fazlası yakında!"
+   },
+   "ppremiumSignUpReports": {
+      "message": "Kasanızı güvende tutmak için veri ihlali, hesap ve parola sağlığı raporları."
+   },
+   "ppremiumSignUpStorage": {
+      "message": "1 GB şifreli dosya depolama."
+   },
+   "ppremiumSignUpSupport": {
+      "message": "Öncelikli müşteri desteği."
+   },
+   "ppremiumSignUpTotp": {
+      "message": "Kasanızdaki giriş bilgileriniz için TOTP doğrulama kodu (2FA) oluşturucu."
+   },
+   "ppremiumSignUpTwoStep": {
+      "message": "İki adımlı oturum açma seçenekleri YubiKey, FIDO U2F ve Duo gibi."
+   },
+   "premiumCurrentMember": {
+      "message": "Premium bir üyesiniz!"
+   },
+   "premiumCurrentMemberThanks": {
+      "message": "Bitwarden'ı desteklediğiniz için teşekkür ederiz."
+   },
+   "premiumManage": {
+      "message": "Üyeliği Yönet"
+   },
+   "premiumManageAlert": {
+      "message": "Üyeliğinizi bitwarden.com web kasası üzerinden yönetebilirsiniz. Web sitesini ziyaret etmek ister misiniz?"
+   },
+   "premiumMembership": {
+      "message": "Premium Üyelik"
+   },
+   "premiumNotCurrentMember": {
+      "message": "Şu an premium bir üye değilsiniz."
+   },
+   "premiumPrice": {
+      "message": "Bunların hepsi sadece %price% /yıl!",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "$10"
+         }
+      }
+   },
+   "premiumPurchase": {
+      "message": "Premium Satın Al"
+   },
+   "premiumPurchaseAlert": {
+      "message": "Premium Üyeliği bitwarden.com web kasası üzerinden satın alabilirsiniz. Siteyi ziyaret etmek ister misiniz?"
+   },
+   "premiumRefresh": {
+      "message": "Üyeliği Yenile"
+   },
+   "premiumRequired": {
+      "message": "Premium Gerekli"
+   },
+   "premiumRequiredDesc": {
+      "message": "Bu özelliği kullanmak için premium üyelik gereklidir."
+   },
+   "premiumSignUpAndGet": {
+      "message": "Premium üye olun ve ek olarak bu özelliklere sahip olun:"
+   },
+   "privateModeMessage": {
+      "message": "Ne yazık ki bu pencere bu tarayıcının özel modunda kullanılabilir değildir."
+   },
+   "rateExtension": {
+      "message": "Eklentiyi Değerlendir"
+   },
+   "rateExtensionDesc": {
+      "message": "Lütfen iyi bir yorum yazarak bize yardım edin!"
+   },
+   "reTypeMasterPass": {
+      "message": "Ana Parolayı Tekrar Yazın"
+   },
+   "recoveryCodeDesc": {
+      "message": "Iki adımlı doğrulama sağlayıcılarınızın hepsine erişiminizi mi kaybettiniz? Hesabınızdaki tüm iki faktörlü sağlayıcıları devre dışı bırakmak için kurtarma kodunuzu kullanın."
+   },
+   "recoveryCodeTitle": {
+      "message": "Kurtarma kodu"
+   },
+   "refresh": {
+      "message": "Yenile"
+   },
+   "refreshComplete": {
+      "message": "Yenileme tamamlandı"
+   },
+   "regEx": {
+      "description": "A programming term, also known as 'RegEx'.",
+      "message": "Kurallı ifade"
+   },
+   "regeneratePassword": {
+      "message": "Tekrar Parola Oluştur"
+   },
+   "rememberMe": {
+      "message": "Beni hatırla"
+   },
+   "remove": {
+      "message": "Kaldır"
+   },
+   "save": {
+      "message": "Kaydet"
+   },
+   "searchCollection": {
+      "message": "Koleksiyon ara"
+   },
+   "searchFolder": {
+      "message": "Klasör Ara"
+   },
+   "searchType": {
+      "message": "Arama türü"
+   },
+   "searchVault": {
+      "message": "Kasada Ara"
+   },
+   "secureNotes": {
+      "message": "Güvenli Notlar"
+   },
+   "security": {
+      "message": "Güvenlik"
+   },
+   "securityCode": {
+      "message": "Güvenlik Kodu"
+   },
+   "select": {
+      "message": "Seç"
+   },
+   "selectFile": {
+      "message": "Bir dosya seç."
+   },
+   "selectOneCollection": {
+      "message": "En az bir koleksiyon seçmelisiniz."
+   },
+   "selfHostedEnvironment": {
+      "message": "Öz-barındıran Çevre"
+   },
+   "selfHostedEnvironmentFooter": {
+      "message": "Kurum içi barındırılan Bitwarden kurulumunuzun taban URL'sini belirtin."
+   },
+   "sendVerificationCodeEmailAgain": {
+      "message": "Doğrulama kodunu yeniden e-postala"
+   },
+   "september": {
+      "message": "Eylül"
+   },
+   "setYourPinCode": {
+      "message": "Bitwarden'ı açmak için bir PIN kodu belirleyin. Uygulamadan tamamen çıkış yaparsanız PIN ayarlarınız sıfırlanacaktır."
+   },
+   "settings": {
+      "message": "Ayarlar"
+   },
+   "share": {
+      "message": "Paylaş"
+   },
+   "shareDesc": {
+      "message": "Choose an organization that you wish to share this item with. Sharing transfers ownership of the item to the organization. You will no longer be the direct owner of this item once it has been shared."
+   },
+   "shareItem": {
+      "message": "Share Item"
+   },
+   "shareVault": {
+      "message": "Kasanızı Paylaşın"
+   },
+   "shareVaultConfirmation": {
+      "message": "Bitwarden bir kuruluş hesabı kullanarak başkalarıyla kasanızı paylaşmanızı sağlar. Daha fazla bilgi için bitwarden.com sitesini ziyaret etmek ister misiniz?"
+   },
+   "shared": {
+      "message": "Paylaşımlı"
+   },
+   "sharedItem": {
+      "message": "Shared Item"
+   },
+   "ssn": {
+      "message": "Sosyal Güvenlik Numarası"
+   },
+   "startsWith": {
+      "message": "İle başlar"
+   },
+   "stateProvince": {
+      "message": "Eyalet / İl"
+   },
+   "strong": {
+      "description": "ex. A strong password. Scale: Weak -> Good -> Strong",
+      "message": "Güçlü"
+   },
+   "submit": {
+      "message": "Gönder"
+   },
+   "sync": {
+      "message": "Sync"
+   },
+   "syncVaultNow": {
+      "message": "Kasayı Şimdi Eşitle"
+   },
+   "syncingComplete": {
+      "message": "Eşleme tamamlandı"
+   },
+   "syncingFailed": {
+      "message": "Eşitleme başarısız"
+   },
+   "tab": {
+      "message": "Sekme"
+   },
+   "tenSeconds": {
+      "message": "10 saniye"
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "themeDesc": {
+      "message": "Uygulamanın renk temasını değiştir."
+   },
+   "thirtyMinutes": {
+      "message": "30 dakika"
+   },
+   "thirtySeconds": {
+      "message": "30 saniye"
+   },
+   "title": {
+      "message": "Başlık"
+   },
+   "toggleOptions": {
+      "message": "Aç/Kapa Seçenekleri"
+   },
+   "toggleVisibility": {
+      "message": "Görünürlüğünü aç/kapat"
+   },
+   "tools": {
+      "message": "Araçlar"
+   },
+   "twentySeconds": {
+      "message": "20 saniye"
+   },
+   "twoMinutes": {
+      "message": "2 dakika"
+   },
+   "twoStepLogin": {
+      "message": "İki Aşamalı Giriş"
+   },
+   "twoStepLoginConfirmation": {
+      "message": "İki adımlı oturum açma, oturum açma işleminizi bir güvenlik anahtarı, kimlik doğrulayıcı uygulama, SMS, telefon görüşmesi veya e-posta gibi başka bir cihazla doğrulamanızı isteyerek hesabınızı daha güvenli hale getirir. İki adımlı oturum açma işlemini bitwarden.com web kasası üzerinden etkinleştirebilirsiniz. Siteyi şimdi ziyaret etmek ister misiniz?"
+   },
+   "twoStepOptions": {
+      "message": "İki adımlı oturum açma seçenekleri"
+   },
+   "type": {
+      "message": "Tür"
+   },
+   "typeCard": {
+      "message": "Kart"
+   },
+   "typeIdentity": {
+      "message": "Kimlik"
+   },
+   "typeLogin": {
+      "message": "Hesap"
+   },
+   "typeLogins": {
+      "message": "Hesaplar"
+   },
+   "typeSecureNote": {
+      "message": "Güvenli Not"
+   },
+   "types": {
+      "message": "Türler"
+   },
+   "u2fDesc": {
+      "message": "Hesabınıza erişmek için herhangi bir FIDO U2F etkin güvenlik anahtarı kullanın."
+   },
+   "u2fTitle": {
+      "message": "FIDO U2F Güvenlik Anahtarı"
+   },
+   "unexpectedError": {
+      "message": "Beklenmedik bir hata oluştu."
+   },
+   "unlock": {
+      "message": "Kilidi Aç"
+   },
+   "unlockWithPin": {
+      "message": "PIN kodu ile kilidi aç"
+   },
+   "updateKey": {
+      "message": "Şifreleme anahtarınızı güncelleştirene kadar bu özelliği kullanamazsınız."
+   },
+   "uri": {
+      "message": "URl"
+   },
+   "uriPosition": {
+      "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
+      "message": "URL $POSITION$",
+      "placeholders": {
+         "position": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "useAnotherTwoStepMethod": {
+      "message": "Başka bir iki adımlı giriş yöntemini kullan"
+   },
+   "username": {
+      "message": "Kullanıcı Adı"
+   },
+   "value": {
+      "message": "Değer"
+   },
+   "valueCopied": {
+      "description": "Value has been copied to the clipboard.",
+      "message": "$VALUE$ kopyalandı",
+      "placeholders": {
+         "value": {
+            "content": "$1",
+            "example": "Password"
+         }
+      }
+   },
+   "vaultLocked": {
+      "message": "Kasa kilitlendi."
+   },
+   "verificationCode": {
+      "message": "Doğrulama Kodu"
+   },
+   "verificationCodeEmailSent": {
+      "message": "Doğrulama e-postası $EMAIL$ 'a gönderildi.",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "example@gmail.com"
+         }
+      }
+   },
+   "verificationCodeRequired": {
+      "message": "Doğrulama kodu gereklidir."
+   },
+   "verificationCodeTotp": {
+      "message": "Doğrulama kodu (TOTP)"
+   },
+   "verifyMasterPassword": {
+      "message": "Ana Parolayı Doğrula"
+   },
+   "verifyPin": {
+      "message": "PIN'i doğrula"
+   },
+   "version": {
+      "message": "Sürüm"
+   },
+   "view": {
+      "message": "Görüntüle"
+   },
+   "viewItem": {
+      "message": "Hesabı Görüntüle"
+   },
+   "warning": {
+      "description": "WARNING (should stay in capitalized letters if the language permits)",
+      "message": "UYARI"
+   },
+   "weak": {
+      "description": "ex. A weak password. Scale: Weak -> Good -> Strong",
+      "message": "Zayıf"
+   },
+   "weakMasterPassword": {
+      "message": "Zayıf Ana Parola"
+   },
+   "weakMasterPasswordDesc": {
+      "message": "Seçtiğiniz ana parola kolayca tahmin edilebilir. Bitwarden hesabınızı korumak istiyorsanız daha güçlü bir ana parola (veya şifre) seçmelisiniz. Bu ana parolayı kullanmak istediğinizden emin misiniz?"
+   },
+   "webVaultUrl": {
+      "message": "Web Kasası Sunucu URL"
+   },
+   "website": {
+      "message": "Websitesi"
+   },
+   "whoOwnsThisItem": {
+      "message": "Bu öğenin sahibi kim?"
+   },
+   "wordSeparator": {
+      "message": "Kelime Ayracı"
+   },
+   "yes": {
+      "message": "Evet"
+   },
+   "yourAccountsFingerprint": {
+      "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.",
+      "message": "Hesabınızın parmak izi şifresi"
+   },
+   "yourVaultIsLocked": {
+      "message": "Kasan kilitlendi. Devam etmek için ana parolanı doğrula."
+   },
+   "yourVaultIsLockedPinCode": {
+      "message": "Kasan kilitlendi. Devam etmek için PIN kodunu doğrula."
+   },
+   "yubiKeyDesc": {
+      "message": "Hesabınıza erişmek için bir YubiKey kullanın. YubiKey 4, 4 Nano, 4C ve NEO cihazlarıyla çalışır."
+   },
+   "yubiKeyTitle": {
+      "message": "YubiKey OTP Güvenlik Anahtarı"
+   },
+   "zipPostalCode": {
+      "message": "Posta Kodu"
+   }
+}

@@ -1,0 +1,44 @@
+#w2g_sync_panel {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 16px;
+    padding: 2px 6px 2px 6px;
+    line-height: 16px;
+    font-weight: bold;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: fixed;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    top: 0;
+    left: 0;
+    border: none;
+    width: 100%;
+    z-index: 2147483647;
+    background-color: grey;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 10px;
+}
+
+#w2g_sync_panel > span {
+    cursor: pointer;
+}
+
+#w2g_sync_panel > .w2g_panel_button {
+    display: inline-block;
+    background-color: #facd3b;
+    color: #444;
+    margin: 0 4px 0 4px;
+    padding: 0 4px 0 4px;
+}
+
+#w2g_sync_panel > .w2g_panel_button:hover {
+    color: #000;
+}
+
+.w2g-sync-highlight {
+    box-shadow: 0px 0px 2px 4px rgba(0, 184, 16, 0.77);
+    -moz-box-shadow: 0px 0px 2px 4px rgba(0, 184, 16, 0.77);
+    -webkit-box-shadow: 0px 0px 2px 4px rgba(0, 184, 16, 0.77);
+}

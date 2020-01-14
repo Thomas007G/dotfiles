@@ -1,0 +1,128 @@
+[2020-01-13 22:28:28.688] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:31:30.880] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:31:35.195] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:33:22.773] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:33:24.357] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:33:47.971] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:33:54.225] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:37:35.882] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:37:37.464] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:37:41.767] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:37:42.850] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:37:44.450] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:37:46.640] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:37:48.689] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:37:56.146] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-01-13 22:37:57.417] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:679)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:371:547)
+	at new w (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:359:919)
+	at asDocumentSymbol (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:396:22)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/protocolConverter.js:393:23)
+	at /home/thomas/.vscode-oss/extensions/ms-vscode.go-0.12.0/node_modules/vscode-languageclient/lib/client.js:1002:62

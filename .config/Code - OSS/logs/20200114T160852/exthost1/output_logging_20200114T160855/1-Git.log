@@ -1,0 +1,36 @@
+Looking for git in: git
+Using git 2.24.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/thomas/notes
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :semen 2/CS1116/1.md
+> git check-ignore -v -z --stdin
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] 2d9d1507c46d50bf71a95a86dd9d1d78e0387d54
+> git show -s --format=%H
+%ae
+%P
+%B 2d9d1507c46d50bf71a95a86dd9d1d78e0387d54
+> git show -s --format=%an <%ae> [%ai] f923b64521d970a2d70c25307d27d437dfa2f808
+> git show -s --format=%H
+%ae
+%P
+%B f923b64521d970a2d70c25307d27d437dfa2f808
+> git show -s --format=%an <%ae> [%ai] c57391202b81be7699df7d911ceea9338627b298
