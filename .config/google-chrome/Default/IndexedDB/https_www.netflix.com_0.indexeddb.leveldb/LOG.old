@@ -1,1 +1,42 @@
-2020/01/13-10:12:06.512 17a82 Reusing MANIFEST /home/thomas/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/01/13-22:25:39.637 c89 Reusing MANIFEST /home/thomas/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/01/13-22:25:39.637 c89 Recovering log #3
+2020/01/13-22:25:39.645 c89 Reusing old log /home/thomas/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000003.log 
+2020/01/13-22:56:37.760 aff Level-0 table #5: started
+2020/01/13-22:56:37.794 aff Level-0 table #5: 2781236 bytes OK
+2020/01/13-22:56:37.796 aff Delete type=0 #3
+2020/01/13-23:52:39.293 aff Level-0 table #7: started
+2020/01/13-23:52:39.355 aff Level-0 table #7: 2305280 bytes OK
+2020/01/13-23:52:39.359 aff Delete type=0 #4
+2020/01/13-23:56:07.331 aff Compacting 1@1 + 1@2 files
+2020/01/13-23:56:07.389 aff Generated table #8@1: 33 keys, 9864 bytes
+2020/01/13-23:56:07.389 aff Compacted 1@1 + 1@2 files => 9864 bytes
+2020/01/13-23:56:07.391 aff compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/01/13-23:56:07.391 aff Delete type=2 #5
+2020/01/13-23:56:07.391 aff Delete type=2 #7
+2020/01/14-00:48:26.814 aff Level-0 table #10: started
+2020/01/14-00:48:26.886 aff Level-0 table #10: 2313074 bytes OK
+2020/01/14-00:48:26.890 aff Delete type=0 #6
+2020/01/14-00:53:22.821 aff Compacting 1@1 + 1@2 files
+2020/01/14-00:53:22.846 aff Generated table #11@1: 37 keys, 12167 bytes
+2020/01/14-00:53:22.846 aff Compacted 1@1 + 1@2 files => 12167 bytes
+2020/01/14-00:53:22.847 aff compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/01/14-00:53:22.848 aff Delete type=2 #8
+2020/01/14-00:53:22.848 aff Delete type=2 #10
+2020/01/14-01:44:40.703 aff Level-0 table #13: started
+2020/01/14-01:44:40.736 aff Level-0 table #13: 2334733 bytes OK
+2020/01/14-01:44:40.739 aff Delete type=0 #9
+2020/01/14-01:51:00.717 aff Compacting 1@1 + 1@2 files
+2020/01/14-01:51:00.751 aff Generated table #14@1: 36 keys, 12427 bytes
+2020/01/14-01:51:00.751 aff Compacted 1@1 + 1@2 files => 12427 bytes
+2020/01/14-01:51:00.753 aff compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/01/14-01:51:00.753 aff Delete type=2 #11
+2020/01/14-01:51:00.753 aff Delete type=2 #13
+2020/01/14-02:39:58.641 aff Level-0 table #16: started
+2020/01/14-02:39:58.709 aff Level-0 table #16: 2341326 bytes OK
+2020/01/14-02:39:58.712 aff Delete type=0 #12
+2020/01/14-02:46:22.672 aff Compacting 1@1 + 1@2 files
+2020/01/14-02:46:22.696 aff Generated table #17@1: 36 keys, 13455 bytes
+2020/01/14-02:46:22.696 aff Compacted 1@1 + 1@2 files => 13455 bytes
+2020/01/14-02:46:22.698 aff compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/01/14-02:46:22.698 aff Delete type=2 #14
+2020/01/14-02:46:22.698 aff Delete type=2 #16

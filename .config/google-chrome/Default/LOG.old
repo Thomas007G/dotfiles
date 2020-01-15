@@ -1,5 +1,5 @@
-2020/01/13-16:15:26.048 84a Recovering log #10
-2020/01/13-16:15:26.048 84a Level-0 table #12: started
-2020/01/13-16:15:26.049 84a Level-0 table #12: 604 bytes OK
-2020/01/13-16:15:26.052 84a Delete type=3 #8
-2020/01/13-16:15:26.052 84a Delete type=0 #10
+2020/01/14-17:49:48.011 4f1 Recovering log #13
+2020/01/14-17:49:48.011 4f1 Level-0 table #15: started
+2020/01/14-17:49:48.017 4f1 Level-0 table #15: 157 bytes OK
+2020/01/14-17:49:48.023 4f1 Delete type=3 #11
+2020/01/14-17:49:48.023 4f1 Delete type=0 #13
