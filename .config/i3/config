@@ -6,17 +6,19 @@ exec_always --no-startup-id ~/.config/polybar/run.sh
 exec --no-startup-id nm-applet
 #
 # Picom -- Opacity
-exec --no-startup-id picom
+# exec --no-startup-id picom -b
 #
 # Dunst -- Notification Daemon
-exec --no-startup-id dunst
+# exec --no-startup-id dunst
 #
 # PaSystray -- Audio Control
 exec --no-startup-id pasystray
 #
 # Feh -- Background Control
-exec feh --bg-fill ~/wallpaper/wallpaper.jpg
-
+exec feh --bg-fill ~/wallpaper/wallpaper1.jpg
+#
+# Flamehost -- Screenshot tool
+bindsym --release Print exec --no-startup-id flameshot gui
 # Modkey Windows
 set $mod Mod4
 
@@ -40,6 +42,8 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 ## Window - Bindings
 #
+# i3lock
+bindsym $mod+Shift+x exec i3lock -c 000000
 ## Restart i3
 bindsym $mod+Shift+r restart
 #kill focused window
