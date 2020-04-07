@@ -28,7 +28,7 @@ set $mod Mod4
 font Hack 8
 
 # Gaps
-gaps inner 6
+gaps inner 16
 smart_gaps on
 
 for_window [class="^.*"] border pixel 0
